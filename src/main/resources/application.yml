@@ -42,9 +42,10 @@ spring:
 
   #数据库配置
   datasource:
-    url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2B8&characterEncoding=utf-8
-    username: root
-    password: 123456
+#    url: jdbc:mysql://192.168.3.66:3306/base_admin?serverTimezone=GMT%2B8&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/base_admin?characterEncoding=utf-8
+    username: ipas
+    password: ipas
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 #是否需要输入验证码
@@ -58,9 +59,9 @@ spring:
 
   #数据库配置
   datasource:
-    url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2B8&characterEncoding=utf-8
-    username: root
-    password: 123456
+    url: jdbc:mysql://localhost:3306/base_admin?characterEncoding=utf-8
+    username: ipas
+    password: ipas
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 #是否需要输入验证码
